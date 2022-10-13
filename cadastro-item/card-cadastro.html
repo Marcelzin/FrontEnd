@@ -53,13 +53,18 @@
         <input type="text" placeholder="Digite a descrição do produto aqui..." id="descricion">
 
         <label for="type">Tipo de produto</label>
-        <input type="text" placeholder="Digite o tipo de produto aqui..." id="type">
+        <input  id="color" list="tipos" placeholder="Digite o tipo de produto aqui...">
+        <datalist class="lista-tipos-de-produto" id="tipos">
+            <option>Chocolate</option>
+            <option>Creme</option>
+            <option>M&M</option>
+        </datalist>
 
         <div class="valor-type">
 
             <div class="valor">
 
-        <label for="valorfab">valor de produção</label>
+        <label for="valorfab">Valor de produção</label>
         <input type="text" placeholder="Valor de fabrica" id="valorfab">
 
             </div>
@@ -85,9 +90,10 @@
         <div class="image">
         <img src="cookie.jpg" class="cookie">
 
-        
+        <form action="">
         <label for="name">Nome do produto</label>
         <input type="text" placeholder="Digite o nome do produto aqui..." id="name">
+        </form>
 
         </div>
         
